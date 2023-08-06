@@ -17,7 +17,7 @@
    <children>
       <ImageView fitHeight="253.0" fitWidth="414.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../assets/images/car.jpeg" />
+            <Image url="@../assets/images/car.jpg" />
          </image>
       </ImageView>
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Car Name" wrappingWidth="414.0">
