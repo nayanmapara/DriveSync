@@ -20,6 +20,7 @@ public class FileController {
             Scanner scanner = new Scanner(file);
             // skip first line
             scanner.nextLine();
+            // read each line of the file and create a car object
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] carData = line.split(",");
