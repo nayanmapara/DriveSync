@@ -14,9 +14,10 @@ import model.Car;
 import java.util.List;
 
 public class CarDetailsController {
-
+    // Index of the current car being displayed
     private int currentIndex = 0;
 
+    // FXML fields
     @FXML
     private ImageView carImageView;
 
