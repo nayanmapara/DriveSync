@@ -10,7 +10,7 @@ import model.Car;
 import model.Rating;
 
 public class FileController {
-    private static final String CSV_FILE_PATH = "assets/car-list.csv";
+    private static final String CSV_FILE_PATH = "src/assets/car-list.csv";
     private static final String RANDOM_ACCESS_FILE_PATH = "../assets/car-list.dat";
 
     public static List<Car> readCarsFromCSV() {
@@ -18,6 +18,8 @@ public class FileController {
         try {
             File file = new File(CSV_FILE_PATH);
             Scanner scanner = new Scanner(file);
+            // skip first line
+            scanner.nextLine();
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] carData = line.split(",");
@@ -29,6 +31,7 @@ public class FileController {
             scanner.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
+            e.printStackTrace();
         }
         return cars;
     }
