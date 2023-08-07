@@ -32,4 +32,25 @@ public class FileController {
         return cars;
     }
 
+    // display single car
+    public static void displayCar(Car car) {
+        System.out.println("Make: " + car.getMake());
+        System.out.println("Model: " + car.getModel());
+        System.out.println("Year: " + car.getYear());
+        System.out.println("Rating: " + car.getRating().getRating());
+        System.out.println("Price: " + car.getPrice());
+        System.out.println("Fuel Type: " + car.getFuelType());
+        System.out.println("Transmission: " + car.getTransmission());
+        System.out.println("Mileage: " + car.getMileage());
+        System.out.println("Description: " + car.getDescription());
+    }
+
+    // display all cars
+    public static void displayCars(List<Car> cars) {
+        for (Car car : cars) {
+            displayCar(car);
+            System.out.println();
+        }
+    }
+
 }
