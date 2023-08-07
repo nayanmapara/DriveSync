@@ -19,8 +19,6 @@ import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import controller.StarRatingControl;
-
 public class App extends Application {
     public static void main(String[] args) throws Exception {
         launch(args);
@@ -33,9 +31,7 @@ public class App extends Application {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("view/fxml/Review.fxml"));
             Parent root = loader.load();
 
-            // Create a StarRatingControl and add it to a VBox
-            StarRatingControl starRatingControl = new StarRatingControl(5);
-            VBox vbox = new VBox(root, starRatingControl);
+            VBox vbox = new VBox(root);
 
             primaryStage.setTitle("Drive Sync");
             primaryStage.setScene(new Scene(vbox));

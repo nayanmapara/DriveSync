@@ -61,6 +61,9 @@ public class CarDetailsController {
         Image carImage = new Image(getClass().getResourceAsStream("/assets/images/car.jpg"));
         carImageView.setImage(carImage);
 
+        StarRatingControl starRatingControl = new StarRatingControl(5);
+        ratingStarsHBox.getChildren().add(starRatingControl);
+
         // Set up cars from CSV file
         cars = FileController.readCarsFromCSV();
 
