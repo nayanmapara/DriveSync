@@ -36,7 +36,7 @@ public class App extends Application {
     public void start(Stage primaryStage) {
         // load fxml file
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("view/fxml/CarReviews.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("view/fxml/Review.fxml"));
             Parent root = loader.load();
 
             primaryStage.setTitle("Drive Sync");

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" spacing="10.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CarDetailsController">
+   <children>
+      <ImageView fx:id="carImageView" fitHeight="253.0" fitWidth="414.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="carNameText" strokeType="OUTSIDE" strokeWidth="0.0" text="Car Name" wrappingWidth="414.0">
+         <font>
+            <Font name="Arial Bold" size="34.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+      </Text>
+      <SplitPane fx:id="splitPane" dividerPositions="0.5" prefHeight="135.0" prefWidth="414.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TextArea fx:id="featuresTextArea" editable="false" prefHeight="200.0" prefWidth="200.0" text="Fuel Type &#10;&#10;Transmission&#10;&#10;Mileage&#10;&#10;Car Type&#10;" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TextArea fx:id="specificationsTextArea" editable="false" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="394.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </Text>
+      <ScrollPane fx:id="descriptionScrollPane" hbarPolicy="NEVER">
+         <content>
+            <TextArea fx:id="descriptionTextArea" editable="false" prefHeight="79.0" prefWidth="414.0" promptText="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+         </content>
+      </ScrollPane>
+      <HBox fx:id="ratingStarsHBox" alignment="CENTER" prefHeight="73.0" prefWidth="414.0" spacing="10.0">
+         <!-- Add SVGPath elements based on car rating -->
+      </HBox>
+      <HBox fx:id="paginationHBox" alignment="CENTER" prefHeight="74.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Button fx:id="previousButton" onAction="#handlePreviousButtonAction" mnemonicParsing="false" text="&lt;" />
+            <Text fx:id="pageNumberText" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+            <!-- Add other page numbers -->
+            <Button fx:id="nextButton" onAction="#handleNextButtonAction" mnemonicParsing="false" text="&gt;" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

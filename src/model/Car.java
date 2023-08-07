@@ -2,6 +2,7 @@ package model;
 
 // car class for the car object
 public class Car {
+    private int id;
     private String make;
     private String model;
     private String year;
@@ -17,8 +18,9 @@ public class Car {
     }
 
     // constructor with all the fields
-    public Car(String make, String model, String year, Rating rating, double price, String fuelType,
+    public Car(int id, String make, String model, String year, Rating rating, double price, String fuelType,
             String transmission, double mileage, String description) {
+        this.id = id;
         this.make = make;
         this.model = model;
         this.year = year;
@@ -31,6 +33,15 @@ public class Car {
     }
 
     // getters and setters
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+
+    }
+
     public String getMake() {
         return make;
     }

@@ -23,9 +23,10 @@ public class FileController {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] carData = line.split(",");
-                Car car = new Car(carData[0], carData[1], carData[2], new Rating(carData[3]),
-                        Double.parseDouble(carData[4]), carData[5], carData[6], Double.parseDouble(carData[7]),
-                        carData[8]);
+                Car car = new Car(Integer.parseInt(carData[0]), carData[1], carData[2], carData[3],
+                        new Rating(carData[4]),
+                        Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
+                        carData[9]);
                 cars.add(car);
             }
             scanner.close();
@@ -52,7 +53,7 @@ public class FileController {
     // display all cars
     public static void displayCars(List<Car> cars) {
         for (Car car : cars) {
-            displayCar(car);
+            System.out.println(car.getModel());
             System.out.println();
         }
     }

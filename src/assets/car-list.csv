@@ -1,19 +1,19 @@
-﻿Make,Model,Year,Rating,Price,Fuel Type,Transmission,Mileage,Description
-Toyota,Corolla,2023,4.5,25000,Petrol,Automatic,15000,A reliable and efficient compact car.
-Honda,Civic,2022,4.2,23000,Petrol,CVT,18000,Sporty and comfortable sedan with modern features.
-Ford,F-150,2023,4.8,40000,Diesel,Automatic,12000,A rugged and powerful pickup truck for all your needs.
-Chevrolet,Equinox,2022,4.0,28000,Gasoline,Automatic,22000,A versatile and stylish SUV with ample space.
-Volkswagen,Golf,2023,4.6,27000,Petrol,Manual,10000,Iconic hatchback known for its driving dynamics.
-BMW,3 Series,2022,4.7,45000,Petrol,Automatic,13000,Luxury sedan that offers a blend of performance and elegance.
-Nissan,Altima,2023,4.3,24000,Petrol,CVT,16000,A family-friendly sedan with a spacious interior.
-Hyundai,Tucson,2023,4.4,32000,Gasoline,Automatic,14000,Modern SUV with advanced safety features and technology.
-Toyota,Rav4,2022,4.5,28000,Petrol,Automatic,18000,A versatile crossover with comfortable seating and modern tech.
-Ford,Escape,2023,4.3,26000,Gasoline,CVT,15000,Compact SUV offering a balance of efficiency and utility.
-Honda,Accord,2022,4.7,32000,Petrol,Automatic,12000,Reliable midsize sedan known for its comfort and performance.
-Chevrolet,Camaro,2023,4.8,45000,Petrol,Manual,8000,Iconic muscle car with aggressive styling and powerful engine options.
-Volkswagen,Passat,2022,4.2,28000,Petrol,Automatic,14000,Elegant sedan with a spacious interior and smooth ride.
-Subaru,Outback,2023,4.6,30000,Gasoline,Automatic,16000,Adventure-ready wagon with all-wheel drive and rugged capability.
-Mercedes-Benz,E-Class,2023,4.9,55000,Diesel,Automatic,10000,Luxury executive sedan with advanced technology and comfort features.
-Hyundai,Elantra,2022,4.4,24000,Petrol,CVT,20000,Compact sedan offering value, efficiency, and modern styling.
-Audi,Q5,2022,4.7,48000,Gasoline,Automatic,12000,Luxury SUV with a premium interior and impressive performance.
-Kia,Sorento,2023,4.5,34000,Diesel,Automatic,18000,Spacious family SUV with versatile seating and safety features.
+﻿ID,Make,Model,Year,Rating,Price,Fuel Type,Transmission,Mileage,Description,,
+1,Toyota,Corolla,2023,4.5,25000,Petrol,Automatic,15000,A reliable and efficient compact car.,,
+2,Honda,Civic,2022,4.2,23000,Petrol,CVT,18000,Sporty and comfortable sedan with modern features.,,
+3,Ford,F-150,2023,4.8,40000,Diesel,Automatic,12000,A rugged and powerful pickup truck for all your needs.,,
+4,Chevrolet,Equinox,2022,4,28000,Gasoline,Automatic,22000,A versatile and stylish SUV with ample space.,,
+5,Volkswagen,Golf,2023,4.6,27000,Petrol,Manual,10000,Iconic hatchback known for its driving dynamics.,,
+6,BMW,3 Series,2022,4.7,45000,Petrol,Automatic,13000,Luxury sedan that offers a blend of performance and elegance.,,
+7,Nissan,Altima,2023,4.3,24000,Petrol,CVT,16000,A family-friendly sedan with a spacious interior.,,
+8,Hyundai,Tucson,2023,4.4,32000,Gasoline,Automatic,14000,Modern SUV with advanced safety features and technology.,,
+9,Toyota,Rav4,2022,4.5,28000,Petrol,Automatic,18000,A versatile crossover with comfortable seating and modern tech.,,
+10,Ford,Escape,2023,4.3,26000,Gasoline,CVT,15000,Compact SUV offering a balance of efficiency and utility.,,
+11,Honda,Accord,2022,4.7,32000,Petrol,Automatic,12000,Reliable midsize sedan known for its comfort and performance.,,
+12,Chevrolet,Camaro,2023,4.8,45000,Petrol,Manual,8000,Iconic muscle car with aggressive styling and powerful engine options.,,
+13,Volkswagen,Passat,2022,4.2,28000,Petrol,Automatic,14000,Elegant sedan with a spacious interior and smooth ride.,,
+14,Subaru,Outback,2023,4.6,30000,Gasoline,Automatic,16000,Adventure-ready wagon with all-wheel drive and rugged capability.,,
+15,Mercedes-Benz,E-Class,2023,4.9,55000,Diesel,Automatic,10000,Luxury executive sedan with advanced technology and comfort features.,,
+16,Hyundai,Elantra,2022,4.4,24000,Petrol,CVT,20000,Compact sedan offering value, efficiency, and modern styling.
+17,Audi,Q5,2022,4.7,48000,Gasoline,Automatic,12000,Luxury SUV with a premium interior and impressive performance.,,
+18,Kia,Sorento,2023,4.5,34000,Diesel,Automatic,18000,Spacious family SUV with versatile seating and safety features.,,
