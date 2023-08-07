@@ -14,13 +14,17 @@ public class StarRatingControl extends HBox {
     private SVGPath[] stars;
     private int selectedIndex = -1;
 
-    public StarRatingControl(int numStars) {
+    public StarRatingControl() {
+        this(10, 0);
+    }
+
+    public StarRatingControl(int numStars, int defaultRating) {
         stars = new SVGPath[numStars];
         
         for (int i = 0; i < numStars; i++) {
             SVGPath star = new SVGPath();
             star.setContent(STAR_PATH);
-            star.setFill(DEFAULT_COLOR);
+            star.setFill(i < defaultRating ? SELECTED_COLOR : DEFAULT_COLOR);  // Set color based on default rating
             
             star.setOnMouseClicked(this::handleStarClick);
             
