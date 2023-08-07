@@ -24,7 +24,7 @@ public class FileController {
                 String line = scanner.nextLine();
                 String[] carData = line.split(",");
                 Car car = new Car(Integer.parseInt(carData[0]), carData[1], carData[2], carData[3],
-                        new Rating(carData[4]),
+                        new Rating(Integer.parseInt(carData[4])),
                         Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
                         carData[9]);
                 cars.add(car);
@@ -67,7 +67,7 @@ public class FileController {
                 randomAccessFile.writeUTF(car.getMake());
                 randomAccessFile.writeUTF(car.getModel());
                 randomAccessFile.writeUTF(car.getYear());
-                randomAccessFile.writeUTF(car.getRating().getRating());
+                randomAccessFile.write(car.getRating().getRating());
                 randomAccessFile.writeDouble(car.getPrice());
                 randomAccessFile.writeUTF(car.getFuelType());
                 randomAccessFile.writeUTF(car.getTransmission());

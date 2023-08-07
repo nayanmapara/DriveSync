@@ -2,20 +2,20 @@ package model;
 
 public class Rating {
 
-    private String rating;
+    private int rating;
 
     public Rating() {
     }
 
-    public Rating(String rating) {
+    public Rating(int rating) {
         this.rating = rating;
     }
 
-    public String getRating() {
+    public int getRating() {
         return this.rating;
     }
 
-    public void setRating(String rating) {
+    public void setRating(int rating) {
         this.rating = rating;
 
     }
