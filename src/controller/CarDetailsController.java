@@ -101,4 +101,5 @@ public class CarDetailsController {
             displayCarDetails(cars.get(currentIndex));
         }
     }
+
 }

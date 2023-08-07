@@ -1,4 +1,3 @@
-
 /** 
  * @project Drive Sync
  * @version 1.0.0
@@ -10,14 +9,17 @@
  * Description: This is the main class of the project.
 */
 
-import java.util.List;
+// import java.util.List;
 
-import controller.FileController;
+// import controller.FileController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+import controller.StarRatingControl;
 
 public class App extends Application {
     public static void main(String[] args) throws Exception {
@@ -31,13 +33,16 @@ public class App extends Application {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("view/fxml/Review.fxml"));
             Parent root = loader.load();
 
+            // Create a StarRatingControl and add it to a VBox
+            StarRatingControl starRatingControl = new StarRatingControl(5);
+            VBox vbox = new VBox(root, starRatingControl);
+
             primaryStage.setTitle("Drive Sync");
-            primaryStage.setScene(new Scene(root));
+            primaryStage.setScene(new Scene(vbox));
             primaryStage.show();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
     }
-
 }
