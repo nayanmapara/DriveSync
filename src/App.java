@@ -9,9 +9,6 @@
  * Description: This is the main class of the project.
 */
 
-// import java.util.List;
-
-// import controller.FileController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
