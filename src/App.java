@@ -10,14 +10,25 @@
  * Description: This is the main class of the project.
 */
 
+import java.util.List;
+
+import controller.FileController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import model.Car;
 
 public class App extends Application {
     public static void main(String[] args) throws Exception {
+
+        // read cars from csv file
+        List<Car> cars = FileController.readCarsFromCSV();
+
+        // display all cars
+        FileController.displayCars(cars);
+
         launch(args);
     }
 

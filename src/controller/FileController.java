@@ -1,6 +1,7 @@
 package controller;
 
 import java.io.File;
+import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,7 +10,7 @@ import model.Car;
 import model.Rating;
 
 public class FileController {
-    private static final String CSV_FILE_PATH = "../assets/car-list.csv";
+    private static final String CSV_FILE_PATH = "assets/car-list.csv";
     private static final String RANDOM_ACCESS_FILE_PATH = "../assets/car-list.dat";
 
     public static List<Car> readCarsFromCSV() {
@@ -53,4 +54,25 @@ public class FileController {
         }
     }
 
+    // random access file
+    public static void writeCarsToRandomAccessFile(List<Car> cars) {
+        try {
+            File file = new File(RANDOM_ACCESS_FILE_PATH);
+            RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
+            for (Car car : cars) {
+                randomAccessFile.writeUTF(car.getMake());
+                randomAccessFile.writeUTF(car.getModel());
+                randomAccessFile.writeUTF(car.getYear());
+                randomAccessFile.writeUTF(car.getRating().getRating());
+                randomAccessFile.writeDouble(car.getPrice());
+                randomAccessFile.writeUTF(car.getFuelType());
+                randomAccessFile.writeUTF(car.getTransmission());
+                randomAccessFile.writeDouble(car.getMileage());
+                randomAccessFile.writeUTF(car.getDescription());
+            }
+            randomAccessFile.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
 }
