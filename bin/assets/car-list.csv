@@ -1,5 +1,5 @@
-﻿ID,Make,Model,Year,Rating,Price,Fuel Type,Transmission,Mileage,Description,,
-1,Toyota,Corolla,2023,9,25000,Petrol,Automatic,15000,A reliable and efficient compact car.,,
+﻿ID,Make,Model,Year,Rating,Price,Fuel Type,Transmission,Mileage,Description,Image,,
+1,Toyota,Corolla,2023,9,25000,Petrol,Automatic,15000,A reliable and efficient compact car.,https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1600.jpg,,
 2,Honda,Civic,2022,8,23000,Petrol,CVT,18000,Sporty and comfortable sedan with modern features.,,
 3,Ford,F-150,2023,10,40000,Diesel,Automatic,12000,A rugged and powerful pickup truck for all your needs.,,
 4,Chevrolet,Equinox,2022,8,28000,Gasoline,Automatic,22000,A versatile and stylish SUV with ample space.,,

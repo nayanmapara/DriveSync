@@ -82,6 +82,11 @@ public class CarDetailsController {
         ratingStarsHBox.getChildren().clear();
         ratingStarsHBox.getChildren().add(starRatingControl);
 
+        // Set image using the url
+        String imageUrl = car.getImage();
+        Image carImages = new Image(imageUrl);
+        carImageView.setImage(carImages);
+
         // Set specifications and description
         specificationsTextArea.setText("Rating: " + car.getRating().getRating() +
                 "\nPrice: " + car.getPrice());

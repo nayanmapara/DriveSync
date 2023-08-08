@@ -11,7 +11,7 @@ import model.Rating;
 
 public class FileController {
     private static final String CSV_FILE_PATH = "src/assets/car-list.csv";
-    private static final String RANDOM_ACCESS_FILE_PATH = "../assets/car-list.dat";
+    private static final String RANDOM_ACCESS_FILE_PATH = "src/assets/car-list.dat";
 
     public static List<Car> readCarsFromCSV() {
         List<Car> cars = new ArrayList<Car>();
@@ -24,11 +24,20 @@ public class FileController {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] carData = line.split(",");
-                Car car = new Car(Integer.parseInt(carData[0]), carData[1], carData[2], carData[3],
+                if (carData.length != 11) {
+                    Car car = new Car(Integer.parseInt(carData[0]), carData[1], carData[2], carData[3],
                         new Rating(Integer.parseInt(carData[4])),
                         Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
                         carData[9]);
-                cars.add(car);
+                    
+                    cars.add(car);
+                } else {
+                    Car car = new Car(Integer.parseInt(carData[0]), carData[1], carData[2], carData[3],
+                        new Rating(Integer.parseInt(carData[4])),
+                        Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
+                        carData[9], carData[10]);
+                    
+                    cars.add(car);}
             }
             scanner.close();
         } catch (Exception e) {
@@ -74,6 +83,7 @@ public class FileController {
                 randomAccessFile.writeUTF(car.getTransmission());
                 randomAccessFile.writeDouble(car.getMileage());
                 randomAccessFile.writeUTF(car.getDescription());
+                randomAccessFile.writeUTF(car.getImage());
             }
             randomAccessFile.close();
         } catch (Exception e) {

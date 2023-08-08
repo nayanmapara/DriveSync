@@ -12,12 +12,13 @@ public class Car {
     private String transmission;
     private double mileage;
     private String description;
+    private String image;
+    private final String imageURL = "https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg";
 
     // no arg constructor
     public Car() {
     }
 
-    // constructor with all the fields
     public Car(int id, String make, String model, String year, Rating rating, double price, String fuelType,
             String transmission, double mileage, String description) {
         this.id = id;
@@ -30,6 +31,23 @@ public class Car {
         this.transmission = transmission;
         this.mileage = mileage;
         this.description = description;
+        this.image = imageURL;
+    }
+
+    // constructor with all the fields
+    public Car(int id, String make, String model, String year, Rating rating, double price, String fuelType,
+            String transmission, double mileage, String description, String image) {
+        this.id = id;
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.rating = rating;
+        this.price = price;
+        this.fuelType = fuelType;
+        this.transmission = transmission;
+        this.mileage = mileage;
+        this.description = description;
+        this.image = image;
     }
 
     // getters and setters
@@ -118,6 +136,15 @@ public class Car {
 
     public void setDescription(String description) {
         this.description = description;
+
+    }
+
+    public String getImage() {
+        return this.image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
 
     }
 
