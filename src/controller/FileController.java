@@ -1,6 +1,8 @@
 package controller;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.List;
@@ -88,6 +90,32 @@ public class FileController {
             randomAccessFile.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
+        }
+    }
+
+    // Update the rating in the CSV file using getRating() from StarRatingControl
+    public static void updateRatingInCSV(int carId, int newRating) {
+        List<Car> cars = readCarsFromCSV();
+
+        for (Car car : cars) {
+            if (car.getId() == carId) {
+                car.getRating().setRating(newRating); // Update the rating in the Car object
+                break;
+            }
+        }
+
+        try {
+            FileWriter writer = new FileWriter(CSV_FILE_PATH);
+            writer.write("ID,Make,Model,Year,Rating,Price,FuelType,Transmission,Mileage,Description,Image\n");
+            for (Car car : cars) {
+                writer.write(car.getId() + "," + car.getMake() + "," + car.getModel() + "," + car.getYear() + "," +
+                        car.getRating().getRating() + "," + car.getPrice() + "," + car.getFuelType() + "," +
+                        car.getTransmission() + "," + car.getMileage() + "," + car.getDescription() + "," +
+                        car.getImage() + "\n");
+            }
+            writer.close();
+        } catch (IOException e) {
+            System.out.println(e.getMessage()); // Print the exception
         }
     }
 }

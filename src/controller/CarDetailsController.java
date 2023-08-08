@@ -79,6 +79,11 @@ public class CarDetailsController {
 
         // Show rating stars
         StarRatingControl starRatingControl = new StarRatingControl(10, car.getRating().getRating());
+        starRatingControl.setRatingUpdateCallback(newRating -> {
+            FileController.updateRatingInCSV(car.getId(), newRating);
+            car.getRating().setRating(newRating); // Update the rating in the Car object
+            displayCarDetails(car); // Update the displayed details
+        });
         ratingStarsHBox.getChildren().clear();
         ratingStarsHBox.getChildren().add(starRatingControl);
 
@@ -111,5 +116,4 @@ public class CarDetailsController {
             displayCarDetails(cars.get(currentIndex));
         }
     }
-
 }
