@@ -1,0 +1,50 @@
+.root {
+  -fx-background-color: #f4f4f4;
+}
+
+#carImageView {
+  -fx-border-color: #ccc;
+  -fx-border-width: 1px;
+}
+
+#carNameText {
+  -fx-fill: #333;
+}
+
+#splitPane {
+  -fx-divider-position: 0.5;
+}
+
+#featuresTextArea,
+#specificationsTextArea,
+#descriptionTextArea {
+  -fx-border-color: #ccc;
+  -fx-border-width: 1px;
+  -fx-background-color: #fff;
+  -fx-font-family: "Arial";
+}
+
+#descriptionScrollPane {
+  -fx-border-color: #ccc;
+  -fx-border-width: 1px;
+}
+
+#ratingStarsHBox,
+#paginationHBox {
+  -fx-spacing: 5px;
+}
+
+#ratingStarsHBox SVGPath {
+  -fx-fill: #ffcc00; /* Change color based on your rating */
+}
+
+#paginationHBox Button {
+  -fx-background-color: #007bff;
+  -fx-text-fill: #fff;
+  -fx-padding: 5px 10px;
+  -fx-font-family: "Arial";
+}
+
+#pageNumberText {
+  -fx-font-size: 18px;
+}

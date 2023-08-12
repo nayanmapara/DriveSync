@@ -1,3 +1,4 @@
+
 /** 
  * @project Drive Sync
  * @version 1.0.0
@@ -29,9 +30,11 @@ public class App extends Application {
             Parent root = loader.load();
 
             VBox vbox = new VBox(root);
+            Scene scene = new Scene(vbox);
+            scene.getStylesheets().add("assets/styles/style.css");
 
             primaryStage.setTitle("Drive Sync");
-            primaryStage.setScene(new Scene(vbox));
+            primaryStage.setScene(scene);
             primaryStage.show();
         } catch (Exception e) {
             System.out.println(e.getMessage());
