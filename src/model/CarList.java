@@ -1,13 +1,28 @@
 package model;
 
-public class CarList {
-    private Car[] cars;
+import java.util.ArrayList;
+import java.util.List;
 
+public class CarList {
+    private List<Car> cars;
+
+    // no arg constructor
     public CarList() {
-        cars = new Car[0];
+        cars = new ArrayList<>();
     }
 
-    public CarList(Car[] cars) {
+    // constructor with all the fields
+    public CarList(List<Car> cars) {
         this.cars = cars;
     }
+
+    // getters and setters
+    public List<Car> getCars() {
+        return this.cars;
+    }
+
+    public void setCars(List<Car> cars) {
+        this.cars = cars;
+    }
+
 }
