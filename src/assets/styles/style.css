@@ -34,10 +34,6 @@
   -fx-spacing: 5px;
 }
 
-#ratingStarsHBox SVGPath {
-  -fx-fill: #ffcc00; /* Change color based on your rating */
-}
-
 #paginationHBox Button {
   -fx-background-color: #007bff;
   -fx-text-fill: #fff;
