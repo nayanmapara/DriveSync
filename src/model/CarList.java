@@ -3,6 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
+// car list class for the list of cars
 public class CarList {
     private List<Car> cars;
 

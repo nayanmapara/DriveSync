@@ -101,6 +101,7 @@ public class CarDetailsController {
         pageNumberText.setText((currentIndex + 1) + " / " + cars.size());
     }
 
+    // Handle the click event on the previous button
     @FXML
     private void handlePreviousButtonAction() {
         if (!cars.isEmpty()) {
@@ -109,6 +110,7 @@ public class CarDetailsController {
         }
     }
 
+    // Handle the click event on the next button
     @FXML
     private void handleNextButtonAction() {
         if (!cars.isEmpty()) {

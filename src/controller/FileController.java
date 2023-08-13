@@ -28,18 +28,19 @@ public class FileController {
                 String[] carData = line.split(",");
                 if (carData.length != 11) {
                     Car car = new Car(Integer.parseInt(carData[0]), carData[1], carData[2], carData[3],
-                        new Rating(Integer.parseInt(carData[4])),
-                        Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
-                        carData[9]);
-                    
+                            new Rating(Integer.parseInt(carData[4])),
+                            Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
+                            carData[9]);
+
                     cars.add(car);
                 } else {
                     Car car = new Car(Integer.parseInt(carData[0]), carData[1], carData[2], carData[3],
-                        new Rating(Integer.parseInt(carData[4])),
-                        Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
-                        carData[9], carData[10]);
-                    
-                    cars.add(car);}
+                            new Rating(Integer.parseInt(carData[4])),
+                            Double.parseDouble(carData[5]), carData[6], carData[7], Double.parseDouble(carData[8]),
+                            carData[9], carData[10]);
+
+                    cars.add(car);
+                }
             }
             scanner.close();
         } catch (Exception e) {
@@ -49,7 +50,7 @@ public class FileController {
         return cars;
     }
 
-    // display single car
+    // Sample print method to test car object
     public static void displayCar(Car car) {
         System.out.println("Make: " + car.getMake());
         System.out.println("Model: " + car.getModel());
@@ -62,7 +63,7 @@ public class FileController {
         System.out.println("Description: " + car.getDescription());
     }
 
-    // display all cars
+    // Sample print method to test list of cars
     public static void displayCars(List<Car> cars) {
         for (Car car : cars) {
             System.out.println(car.getModel());
@@ -70,7 +71,7 @@ public class FileController {
         }
     }
 
-    // random access file
+    // random access file methods for future implementations
     public static void writeCarsToRandomAccessFile(List<Car> cars) {
         try {
             File file = new File(RANDOM_ACCESS_FILE_PATH);
