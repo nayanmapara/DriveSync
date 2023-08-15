@@ -1,6 +1,6 @@
 ID,Make,Model,Year,Rating,Price,FuelType,Transmission,Mileage,Description,Image
-1,Toyota,Corolla,2023,9,25000.0,Petrol,Automatic,15000.0,A reliable and efficient compact car.,https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1600.jpg
-2,Honda,Civic,2022,8,23000.0,Petrol,CVT,18000.0,Sporty and comfortable sedan with modern features.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+1,Toyota,Corolla,2023,8,25000.0,Petrol,Automatic,15000.0,A reliable and efficient compact car.,https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1600.jpg
+2,Honda,Civic,2022,9,23000.0,Petrol,CVT,18000.0,Sporty and comfortable sedan with modern features.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
 3,Ford,F-150,2023,10,40000.0,Diesel,Automatic,12000.0,A rugged and powerful pickup truck for all your needs.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
 4,Chevrolet,Equinox,2022,8,28000.0,Gasoline,Automatic,22000.0,A versatile and stylish SUV with ample space.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
 5,Volkswagen,Golf,2023,9,27000.0,Petrol,Manual,10000.0,Iconic hatchback known for its driving dynamics.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
