@@ -46,6 +46,10 @@ The **Drive Sync** project aims to create a Car Rating App that enables users to
 
 ![UML Class Diagram](UML.jpg)
 
+## Project Images
+
+![Car Details Page](Main-GUI.jpg)
+
 ## Project Challenges
 
 1. **Learning Curve:** The team learns JavaFX and adapts to its unique features for designing the user interface.
@@ -67,6 +71,18 @@ The Drive Sync Car Rating App is successfully developed, meeting all the outline
 3. **Advanced Search:** Incorporate advanced search and filter options to help users find specific car models based on various criteria.
 
 4. **User Login:** Implement user login and authentication to allow users to access their profiles and preferences.
+
+## Het Patel
+
+Working on the project was a great learning experience. This Project game me the opportunity to learn coding through pair programming and handling different components of software development individually. I took the charge of designing and implementing the graphical user interface with JavaFX.
+
+One of the significant challenges i encountered was managing the deadline effectively. With multiple tasks and deliverables, it was crucial to prioritize and allocate time efficiently to meet the project milestones. This experience taught me the importance of setting realistic goals and breaking down tasks into smaller, manageable chunks.
+
+I would approach the project differently by setting up a more detailed plan and timeline for the project. This would help me manage my time more effectively and ensure that I meet all the project requirements.
+
+Overall this project helped me with the practical skills in GUI design and development, time management, and collaboration. It reinforced the significance of teamwork and communication in software development. I look forward to applying these skills in future projects and endeavors.
+
+## Nayan Mapara
 
 ## Conclusion
 
