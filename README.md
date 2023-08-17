@@ -49,8 +49,11 @@ The **Drive Sync** project aims to create a Car Rating App enabling users to rev
 ![UML Class Diagram](UML.jpg)
 
 ## Project Images
-
-![Car Details Page](Main-GUI.jpg)
+<details>
+  <p align="center"><img src="https://github.com/nayanmapara/DriveSync/assets/96513736/82200f62-7275-4eb8-a6e5-28e204283489" alt="MainGUI" width=33%/>
+  <img src="https://github.com/nayanmapara/DriveSync/assets/96513736/0fef8028-4e47-4f95-9d51-aa0458e4974b" alt="MainGUI-p2jpg" width=33%/>
+  <img src="https://github.com/nayanmapara/DriveSync/assets/96513736/70901232-d0db-462a-9b7d-09647bfe1f29" alt="MainGUI-p3jpg" width=33%/></p>
+</details>
 
 ## Project Challenges
 
@@ -76,15 +79,23 @@ The Drive Sync Car Rating App is successfully developed, meeting all the outline
 
 ## Het Patel
 
-Working on the project was a great learning experience. This Project game me the opportunity to learn coding through pair programming and handling different components of software development individually. I took the charge of designing and implementing the graphical user interface with JavaFX.
+Working on the project was a great learning experience. This Project gave me the opportunity to learn coding through pair programming and handling different components of software development individually. I took the charge of designing and implementing the graphical user interface with JavaFX.
 
-One of the significant challenges i encountered was managing the deadline effectively. With multiple tasks and deliverables, it was crucial to prioritize and allocate time efficiently to meet the project milestones. This experience taught me the importance of setting realistic goals and breaking down tasks into smaller, manageable chunks.
+One of the significant challenges I encountered was managing the deadline effectively. With multiple tasks and deliverables, it was crucial to prioritize and allocate time efficiently to meet the project milestones. This experience taught me the importance of setting realistic goals and breaking down tasks into smaller, manageable chunks.
 
 I would approach the project differently by setting up a more detailed plan and timeline for the project. This would help me manage my time more effectively and ensure that I meet all the project requirements.
 
-Overall this project helped me with the practical skills in GUI design and development, time management, and collaboration. It reinforced the significance of teamwork and communication in software development. I look forward to applying these skills in future projects and endeavors.
+Overall this project helped me with the practical skills in GUI design and development, time management, and collaboration. It reinforced the significance of teamwork and communication in software development. I look forward to applying these skills in future projects and endeavours.
 
 ## Nayan Mapara
+The project journey has been an enlightening experience, broadening my comprehension of JavaFX and team dynamics. Reflecting back, the aspect that truly excelled was the seamless collaboration, which greatly facilitated the project's successful execution. 
+
+One of the main hurdles faced while making this project would be crafting a star shape within JavaFX, eventually resolved with SVG integration. Navigating time constraints compelled us to devise a distinctive approach: duplicating stars to enhance the comprehensiveness of car reviews. Nonetheless, this innovative adjustment wasn't without its trade-offs. Implementing this alteration necessitated a modification in the visual aesthetics of the page, impacting its overall look and feel. 
+
+Looking ahead, our goal is to reconnect with our initial concept, while also enhancing user experience through the incorporation of half-star selections. This step reflects our dedication to harmonizing our original vision with the newfound improvements, culminating in an interface that seamlessly combines user-friendliness and visual appeal, capturing the essence of our project's inception.
+
+In summary, this project has been instrumental in honing my practical skills in GUI design, development, time management, and collaboration. It has reaffirmed the pivotal role of teamwork and effective communication in the realm of software development. I eagerly anticipate the opportunity to put these acquired skills into action in upcoming projects and ventures.
+
 
 ## Conclusion
 
