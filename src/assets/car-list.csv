@@ -1,0 +1,26 @@
+ID,Make,Model,Year,Rating,Price,FuelType,Transmission,Mileage,Description,Image
+1,Toyota,Corolla,2023,8,25000.0,Petrol,Automatic,15000.0,A reliable and efficient compact car.,https://media.ed.edmunds-media.com/toyota/corolla/2023/oem/2023_toyota_corolla_sedan_xse_fq_oem_1_1600.jpg
+2,Honda,Civic,2022,9,23000.0,Petrol,CVT,18000.0,Sporty and comfortable sedan with modern features.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+3,Ford,F-150,2023,10,40000.0,Diesel,Automatic,12000.0,A rugged and powerful pickup truck for all your needs.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+4,Chevrolet,Equinox,2022,8,28000.0,Gasoline,Automatic,22000.0,A versatile and stylish SUV with ample space.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+5,Volkswagen,Golf,2023,9,27000.0,Petrol,Manual,10000.0,Iconic hatchback known for its driving dynamics.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+6,BMW,3 Series,2022,9,45000.0,Petrol,Automatic,13000.0,Luxury sedan that offers a blend of performance and elegance.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+7,Nissan,Altima,2023,8,24000.0,Petrol,CVT,16000.0,A family-friendly sedan with a spacious interior.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+8,Hyundai,Tucson,2023,9,32000.0,Gasoline,Automatic,14000.0,Modern SUV with advanced safety features and technology.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+9,Toyota,Rav4,2022,9,28000.0,Petrol,Automatic,18000.0,A versatile crossover with comfortable seating and modern tech.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+10,Ford,Escape,2023,8,26000.0,Gasoline,CVT,15000.0,Compact SUV offering a balance of efficiency and utility.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+11,Honda,Accord,2022,9,32000.0,Petrol,Automatic,12000.0,Reliable midsize sedan known for its comfort and performance.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+12,Chevrolet,Camaro,2023,10,45000.0,Petrol,Manual,8000.0,Iconic muscle car with aggressive styling and powerful engine options.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+13,Volkswagen,Passat,2022,8,28000.0,Petrol,Automatic,14000.0,Elegant sedan with a spacious interior and smooth ride.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+14,Subaru,Outback,2023,9,30000.0,Gasoline,Automatic,16000.0,Adventure-ready wagon with all-wheel drive and rugged capability.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+15,Mercedes-Benz,E-Class,2023,10,55000.0,Diesel,Automatic,10000.0,Luxury executive sedan with advanced technology and comfort features.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+16,Hyundai,Elantra,2022,9,24000.0,Petrol,CVT,20000.0,Compact sedan offering value,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+17,Audi,Q5,2022,10,48000.0,Gasoline,Automatic,12000.0,Luxury SUV with a premium interior and impressive performance.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+18,Kia,Sorento,2023,9,34000.0,Diesel,Automatic,18000.0,Spacious family SUV with versatile seating and safety features.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+19,Fiat,500,2023,6,18000.0,Petrol,Manual,12000.0,Compact and stylish city car with good fuel efficiency.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+20,Chevrolet,Spark,2022,5,15000.0,Petrol,Automatic,10000.0,Small and affordable car perfect for urban commuting.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+21,Dodge,Charger,2023,7,35000.0,Petrol,Automatic,18000.0,Powerful muscle car known for its performance and classic design.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+22,Ford,Fiesta,2022,6,20000.0,Petrol,Manual,14000.0,Fun-to-drive subcompact car with nimble handling.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+23,Hyundai,Kona,2023,5,27000.0,Petrol,CVT,16000.0,Compact crossover with a unique design and comfortable interior.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+24,Jeep,Compass,2022,7,30000.0,Diesel,Automatic,20000.0,Trail-rated SUV with off-road capability and modern features.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg
+25,Nissan,Maxima,2023,6,28000.0,Petrol,CVT,15000.0,Large sedan offering a blend of comfort and performance.,https://ndion.de/wp-content/uploads/2020/03/Mercedes-Benz-Beitragsbild-ndion-1000px.jpg

@@ -1,0 +1,61 @@
+/* style.css */
+
+.root {
+  -fx-background-color: #f4f4f4;
+}
+
+#carImageView {
+  -fx-border-color: #ccc;
+  -fx-border-width: 1px;
+}
+
+#carNameText {
+  -fx-font-size: 2em;
+  -fx-fill: #333;
+  -fx-font-weight: bold;
+}
+
+.split-pane {
+  -fx-divider-position: 0.5;
+}
+
+.text-area {
+  -fx-border-color: #ccc;
+  -fx-border-width: 1px;
+  -fx-background-color: #fff;
+  -fx-font-family: "Arial";
+  -fx-font-size: 14px;
+}
+
+.scroll-pane {
+  -fx-border-color: #ccc;
+  -fx-border-width: 1px;
+}
+
+#descriptionText {
+  -fx-font-size: 1.5em;
+  -fx-fill: #333;
+  -fx-font-weight: bold;
+}
+
+#descriptionTextArea {
+  -fx-font-size: 14px;
+}
+
+#ratingStarsHBox {
+  -fx-spacing: 10px;
+}
+
+#paginationHBox .button {
+  -fx-background-color: #007bff;
+  -fx-text-fill: #fff;
+  -fx-padding: 5px 10px;
+  -fx-font-family: "Arial";
+  -fx-font-size: 14px;
+}
+
+#pageNumberText {
+  -fx-font-size: 18px;
+  -fx-fill: #333;
+  -fx-font-weight: bold;
+}
