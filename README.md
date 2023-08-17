@@ -42,6 +42,10 @@ The **Drive Sync** project aims to create a Car Rating App that enables users to
 
 - **Star Rating:** Nayan Mapara implements the StarRating class to allow users to rate cars using a star rating system.
 
+## UML Class Diagram
+
+![UML Class Diagram](UML.jpg)
+
 ## Project Challenges
 
 1. **Learning Curve:** The team learns JavaFX and adapts to its unique features for designing the user interface.
