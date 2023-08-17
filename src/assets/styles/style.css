@@ -33,7 +33,7 @@
 }
 
 #descriptionText {
-  -fx-font-size: 1.5em; 
+  -fx-font-size: 1.5em;
   -fx-fill: #333;
   -fx-font-weight: bold;
 }
@@ -42,11 +42,11 @@
   -fx-font-size: 14px;
 }
 
-.star-rating {
-  -fx-spacing: 5px;
+#ratingStarsHBox {
+  -fx-spacing: 10px;
 }
 
-.pagination-button {
+#paginationHBox .button {
   -fx-background-color: #007bff;
   -fx-text-fill: #fff;
   -fx-padding: 5px 10px;
