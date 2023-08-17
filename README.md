@@ -1,8 +1,10 @@
 # Drive Sync - Car Rating App
 
+[Project Link](https://github.com/nayanmapara/DriveSync)
+
 ## Project Overview
 
-The **Drive Sync** project aims to create a Car Rating App that enables users to review and rate cars from the year 2023 and beyond. The application offers users the ability to browse and access detailed information about various car models, including ratings, prices, and specifications. The project is implemented using Java 17 and the JavaFX framework for the graphical user interface. The development environment of choice is Visual Studio Code, and version control and collaboration are facilitated through GitHub.
+The **Drive Sync** project aims to create a Car Rating App enabling users to review and rate cars from 2023 and beyond. The application offers users the ability to browse and access detailed information about various car models, including ratings, prices, and specifications. The project is implemented using Java 17 and the JavaFX framework for the graphical user interface. The development environment of choice is Visual Studio Code and version control and collaboration are facilitated through GitHub.
 
 ## Project Team
 
